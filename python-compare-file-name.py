@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 from tqdm.notebook import trange, tqdm
 from time import sleep
 
-origin_file_path = 'numword.csv'
-file_path = r'C:\Users\TaeFreeze\Documents\thaijofiles\health01'
-file_remove_path = r'C:\Users\TaeFreeze\Documents\thaijofiles\health01/'
+origin_file_path = your compare file
+file_path = your dir to compare
+file_remove_path = your path to remove file
 
 dup = []
 with open('numword.csv') as csvfile:
